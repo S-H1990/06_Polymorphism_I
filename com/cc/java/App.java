@@ -22,29 +22,28 @@ public class App {
 
     }
 
-   
  // Overloading
- private static void pollObj(Queen obj){
+ private static void pollObj(Honeybee obj){
     output(obj.doYourJob());
     output(obj.fly());
     output("----------------");
 }
 
 
-// Overloading
-private static void pollObj(Worker obj){
-    output(obj.doYourJob());
-    output(obj.fly());
-    output("----------------");
-}
+// // Overloading
+// private static void pollObj(Worker obj){
+//     output(obj.doYourJob());
+//     output(obj.fly());
+//     output("----------------");
+// }
 
 
-// Overloading
-private static void pollObj(Drone obj){
-    output(obj.doYourJob());
-    output(obj.fly());
-    output("----------------");
-}
+// // Overloading
+// private static void pollObj(Drone obj){
+//     output(obj.doYourJob());
+//     output(obj.fly());
+//     output("----------------");
+// }
 
 
    
