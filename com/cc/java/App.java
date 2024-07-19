@@ -11,15 +11,9 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
-        // output(queen.doYourJob());
-        // output(queen.fly());
-      
-        // output(worker.doYourJob());
-        // output(worker.fly());
 
-        // output(drone.doYourJob());
-        // output(drone.fly());
-
+        Honeybee bee = new Honeybee();
+        pollObj(bee);
     }
 
  // Overloading
@@ -30,20 +24,6 @@ public class App {
 }
 
 
-// // Overloading
-// private static void pollObj(Worker obj){
-//     output(obj.doYourJob());
-//     output(obj.fly());
-//     output("----------------");
-// }
-
-
-// // Overloading
-// private static void pollObj(Drone obj){
-//     output(obj.doYourJob());
-//     output(obj.fly());
-//     output("----------------");
-// }
 
 
    
